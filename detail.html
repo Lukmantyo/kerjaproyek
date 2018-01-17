@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Detail - Omnicreativora Website</title>
+				<link rel="icon" href="img/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/> 
+	<link rel="stylesheet" href="css/animate.css">
+	<style type="text/css">
+
+		.slick-dots {
+		text-align: left;
+		/*ngasih padding tergantung dari ukuran desain*/
+		padding-left: 80px;
+		padding-top: 50px;
+	}
+		/*membuat circle untuk dots*/
+	.slick-dots li {
+		display: inline-block;
+		position: relative; 
+		width: 8px;
+		height: 8px;
+		margin:0px 10px;
+		border-radius: 100%;
+		background: #c8c8c8;
+		transition: all 0.3s;
+		top: -4px;
+	}
+
+ul {
+  list-style:none;
+}
+
+li.slide {
+  width:40%;
+  height: 700px !important;
+  border: 1px solid #ddd;
+  float:left;
+  background:#fff;
+  text-align:center;
+  line-height:100px;
+  transition:all 0.3s;
+  overflow: hidden;
+    margin-right: 70px;
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+}
+
+	
+.slick-current {
+  opacity:1 !important;
+  width:10% !important;
+  height: 800px;
+  margin-right: 70px;
+  background-size: 100% !important;
+  background-repeat: no-repeat;
+}
+
+	.slick-arrow {
+		font-weight: bold;
+		border: none;
+		position: absolute;
+		bottom: 0px;
+		background: transparent;
+		left: 0px;
+		margin-left:32px;
+	}
+	
+	/*pengaturannya harus manual
+		left + lebar dot + padding dari dots
+		misal lebar dot 190px (dot yang udah dikasih padding);
+	*/
+	.slick-arrow.slick-next {
+		left: 200px;
+	}
+	
+		.slick-arrow{
+			cursor: pointer;
+		}
+	.slick-arrow:focus{
+		outline: none;
+	}
+	.slick-dots li.slick-active {
+		background: #000;
+	}
+	/*menghilakan nomor*/
+	.slick-dots li button {
+		display: block;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 0;
+		cursor: pointer;
+	}
+	</style>
+</head>
+<body>
+
+
+<nav id="detail-nav">
+	<div class="container">		
+		<div class="row">
+			<div class="col-sm-12 col-md-5"><a href="index.html"><img src="img/logo2.svg" class="logo wow fadeInDown" data-wow-delay="0.1s"></a></div>
+			<div class="col-sm-12 col-md-7">
+				<ul>
+					<li><a href="projects.html" class="wow fadeInDown" data-wow-delay="0.2s">Projects</a></li>
+					<li><a href="studio.html" class="wow fadeInDown" data-wow-delay="0.3s">Studio</a></li>
+					<li><a href="https://medium.com/@anggit_pradito" class="wow fadeInDown" data-wow-delay="0.4s">Journal</a></li>
+					<li><a href="contact.html" class="wow fadeInDown" data-wow-delay="0.5s">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</nav>
+
+<section id="title-project">
+	<div class="container">
+		<p class="wow fadeInDown" data-wow-delay="0.1s">Wellhos</p>
+		<h2 class="wow fadeInDown" data-wow-delay="0.04s">Cleaning Service<br> On Demand</h2>
+	</div>
+</section>	
+
+
+
+<section id="hero-img">
+	<div class="big-img-project wow fadeIn" data-wow-delay="0.3s"></div>
+	<div class="desc-hero-img">
+		<div class="container">
+			<div class="row">	
+					<div class="col-md-6">
+						<h5 class="wow fadeInDown" data-wow-delay="0.1s">ABOUT</h5>
+						<p class="wow fadeIn" data-wow-delay="0.3s">A powerful chat<br>
+						In late 2016, French startup Baatch asked us to design the first version of their group ordering app. Centered around a chat interface, users can create groups and by drag and drop share food orders, hotel bookings, flight tickets and much more. Group members can partake or decline an order, vote for the best alternatives and even split the bill.</p>
+				</div>
+				<div class="col-md-6">
+						<h5 class="hero-img-detail wow fadeInDown" data-wow-delay="0.1s">DETAILS</h5>
+						<ul>
+							<li class="wow fadeInDown" data-wow-delay="0.22s">Late 2017</li>
+							<li class="wow fadeInDown" data-wow-delay="0.24s">Mobile Application</li>
+							<li class="wow fadeInDown" data-wow-delay="0.26s">4 weeks point</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="process-1">
+	<div class="container process">
+			<h5 class="wow fadeInDown" data-wow-delay="0.1s">PROCESS</h5>
+			<p class="wow fadeIn" data-wow-delay="0.2s">Ask any digital designer their title and you’ll hear a dozen variations on a theme: Product Designer, UX Designer, Interaction Designer, Visual Designer, Visual Interaction Designer… despite the evolution of our craft into more specialized fields, we all design for screens. At Airbnb we’re Experience Designers, and this title serves as a constant reminder that although we design digital interfaces, the experiences we create extend beyond the screen. The products we build enable hosts to share their homes with guests from around the world.
+			</p>
+	</div>
+</section>
+
+<section id="process-2">
+		<div class="img-hero-process">
+		<ul id="slider-detail">
+		  <li class="slide wow fadeIn" style="background-image: url(img/big-hero-1.png);" data-wow-delay="0.2s"></li>
+		  <li class="slide wow fadeIn" style="background-image: url(img/blog-2.png);" data-wow-delay="0.25s"></li>
+		  <li class="slide wow fadeIn" style="background-image: url(img/big-hero-2.png);" data-wow-delay="0.3s"></li>
+		</ul>
+	</div>
+	<div class="process-2">
+		
+	<h5 class="wow fadeInDown" data-wow-delay="0.1s">PROCESS</h5>
+	<p class="wow fadeIn" data-wow-delay="0.2s">Ask any digital designer their title and you’ll hear a dozen variations on a theme: Product Designer, UX Designer, Interaction Designer, Visual Designer, Visual Interaction Designer… despite the evolution of our craft into more specialized fields, we all design for screens. At Airbnb we’re Experience Designers, and this title serves as a constant reminder that although we design digital interfaces, the experiences we create extend beyond the screen. The products we build enable hosts to share their homes with guests from around the world.
+	</p>
+	<br>
+	<p class="wow fadeIn" data-wow-delay="0.2s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+	</p>
+	<br>
+	<p class="wow fadeIn" data-wow-delay="0.2s">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+	</p>
+	<br>
+	<p class="wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<div class="img-detail" style="background-image: url(img/img-studio1.png);"></div>
+	<br>
+	<p class="wow fadeIn" data-wow-delay="0.2s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+	</p>
+	</div>
+</section>
+
+<section class="blog">
+
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/omniweb.svg" width="58%;">
+				<h2>USER HAPPINESS STUDIO</h2>
+				<p class="span">Yogyakarta, Indonesia. 2017</p>
+
+			</div>
+			<div class="col-md-6">
+
+				<div class="social-me">
+					<p class="yo">Yo! We are in:</p>
+					<ul class="list-group social">
+						<div>
+							<li class="social-media">
+								<a href="#">
+									<img src="img/ico-dribbble.svg">
+									<p>Dribbble</p>
+								</a>
+							</li>
+							<li class="social-media" style="position: relative; left: 40px;">
+								<a href="#">
+									<img src="img/ico-twitter.svg">
+									<p>Twitter</p>
+								</a>
+							</li>
+						</div>
+						<div>
+							<li class="social-media">
+								<a href="#">
+									<img src="img/ico-behance.svg">
+									<p>Behance</p>
+								</a>
+							</li>
+							<li class="social-media" style="position: relative; left: 40px;">
+								<a href="#">
+									<img src="img/ico-instagram.svg">
+									<p>Instagram</p>
+								</a>
+							</li>
+						</div>
+						<li class="social-media">
+							<a href="#">
+								<img src="img/ico-facebook.svg">
+								<p>Facebook</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<p style="margin-top: 60px; font-size: 18px; ">Want to get updates from us?</p>
+				<div class="subscribe">
+					<form>
+						<input type="text" name="" placeholder="Your Email">
+						<input type="submit" name="" value="">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/umd/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/parallax.min.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+	<script type="text/javascript">
+		$('#slider-detail').slick({
+			 nextArrow: '<button class="slick-next">NEXT</button>',
+			 prevArrow: '<button class="slick-prev">PREV</button>',
+   centerPadding: '60px',
+  slidesToShow: 1,
+  			dots:true,
+
+  			arrow:true
+});
+	</script>
+
+</body>
+</html>

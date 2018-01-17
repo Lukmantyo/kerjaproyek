@@ -1,0 +1,194 @@
+@media only screen and (max-width: 10000px) {
+	.img-intro1{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	section.projects{
+		min-height: 2550px !important;
+	}
+
+	.talk h1{
+		font-size: 28px !important;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	#home{
+		text-align: center;
+	}
+
+	.logo{
+		margin-bottom: 40px !important;
+	}
+
+	h2{
+		font-size: 28px !important;
+	}
+
+	.intro{
+		padding-left: 40px !important;
+		margin-top: -120px !important;
+		padding-bottom: 60px !important;
+	}
+
+	.intro h2{
+		margin-top: 60px !important;
+	}
+
+	.intro p{
+		margin-top: 24px !important;
+		margin-bottom: 48px !important;
+	}
+
+		.img-intro1{
+		display: block;
+		width: 80%;
+		margin-top: 60px;
+	}
+
+	.img-intro{
+		display: none;
+	}
+
+	.selected-project h2{
+		width: 96%;
+		margin-top: 60px !important;
+		margin: 0 auto;
+	}
+
+	.selected-project p{
+		width: 96%;
+		margin-top: 10px !important;
+		margin: 0 auto;
+		margin-bottom: 60px !important;
+	}
+
+	.project h3{
+		margin-left: 10px !important;
+	}
+
+	.project h5{
+		margin-left: 10px !important;
+	}
+
+	.project{
+		margin-bottom: 20px !important;
+	}
+
+	section.projects{
+		min-height: 3650px !important;
+	}
+
+	section.projects .btn-custom{
+		margin-top: 20px;
+	}
+
+	.talk{
+		padding-left: 20px;
+		text-align: left !important;
+		height: 180px !important;
+	}
+
+	.talk h1{
+		font-size: 24px !important;
+		width: 90%;
+		margin-top: 60px !important;
+		line-height: 32px;
+	}
+
+	.responsive-studio h1{
+		margin-top: 70px;
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.responsive-studio p{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	#img-studio{
+		height: 600px !important;
+	}
+
+	.img-studio-left{
+		float: none !important;
+		width: 100% !important;
+		height: 380px !important;
+		background-size: 100%;
+	}
+
+	.img-studio-right{
+		float: none !important;
+		width: 100% !important;
+		height: 180px !important;
+	}
+
+	.img-studio-right1{
+		width: 50% !important;
+		float: left;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.img-studio-right2{
+		width: 50% !important;
+		float: left;
+		height: 240px;
+		background-size: 100%;
+			background-repeat: no-repeat;
+	}
+
+	#branding{
+		text-align: center;
+		padding-top: 40px !important;
+		height: 1450px;
+	}
+
+	#branding li{
+		display: block;
+		padding-left:1px !important;
+	}
+
+	#branding ul{
+		margin-left: -40px !important;
+		margin-bottom: 50px !important;
+	}
+
+	.build{
+		margin-top: 40px;
+	}
+
+	.img-branding{
+		width: 450px !important;
+		background-size: 100%;
+		margin-right: -100px !important;
+		text-align: center;
+		margin-left: -40px !important;
+	}
+
+	#clients p{
+		width: 86% !important;
+		margin-bottom: 60px !important;
+	}
+
+	#fact{
+		text-align: center;
+	}
+
+	#fact h5{
+		margin-top: 40px !important;
+	}
+
+	.img-fact{
+		width: 100% !important;
+	}
+	#fact li{
+		display: block;
+		margin-left: -24px !important;
+	}
+}
